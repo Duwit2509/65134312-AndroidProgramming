@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_welcome"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Welcome" />
+
+    <item
+        android:id="@+id/nav_cau1"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Cau 1" />
+    <item
+        android:id="@+id/nav_cau2"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Cau 2" />
+    <item
+        android:id="@+id/nav_cau3"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Cau 3" />
+    <item
+        android:id="@+id/nav_cau4"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Cau 4" />
+</menu>

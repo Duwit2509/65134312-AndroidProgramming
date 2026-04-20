@@ -29,7 +29,7 @@ public class ChuViDienTichActivity extends AppCompatActivity {
         Button btnTinh = findViewById(R.id.btnTinhToan);
         TextView tvKetQua = findViewById(R.id.tvKetQua);
 
-        // 
+        //
         btnTinh.setOnClickListener(v -> {
             String strDai = edtDai.getText().toString();
             String strRong = edtRong.getText().toString();

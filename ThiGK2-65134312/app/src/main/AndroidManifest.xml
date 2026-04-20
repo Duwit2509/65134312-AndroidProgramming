@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ThiGK265134312">
         <activity
-            android:name=".ChuViDienTIchActivity"
+            android:name=".GioiThieuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DuLichActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TinhThanhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChuViDienTichActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

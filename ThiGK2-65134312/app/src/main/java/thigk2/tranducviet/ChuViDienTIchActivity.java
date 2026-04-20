@@ -1,8 +1,6 @@
 package thigk2.tranducviet;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,37 +8,17 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class ChuViDienTIchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_chu_vi_dien_tich);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
     }
-    public void ChuyenSangChuViDienTich(View v) {
-        Intent i = new Intent(this, ChuViDienTichActivity.class);
-        startActivity(i);
-    }
-
-    public void ChuyenSangTinhThanh(View v) {
-        Intent i = new Intent(this, TinhThanhActivity.class);
-        startActivity(i);
-    }
-
-    public void ChuyenSangDuLich(View v) {
-        Intent i = new Intent(this, BaiThuocActivity.class);
-        startActivity(i);
-    }
-
-    public void ChuyenSangGioiThieu(View v) {
-        Intent i = new Intent(this, GioiThieuActivity.class);
-        startActivity(i);
-    }
-
 }

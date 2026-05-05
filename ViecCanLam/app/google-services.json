@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797418485020",
+    "project_id": "vieccanlam65134312",
+    "storage_bucket": "vieccanlam65134312.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797418485020:android:d20c2450d8b333966cf6d9",
+        "android_client_info": {
+          "package_name": "duwit.edu.vieccanlam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8LrEjVD5tVoIM8z7Gd4UxvYZRWlfMBtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
